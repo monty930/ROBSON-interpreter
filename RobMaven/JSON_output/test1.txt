@@ -1,0 +1,1 @@
+{"typ":"Blok","instrukcje":[{"typ":"Plus","argument1":{"typ":"Blok","instrukcje":[]},"argument2":{"typ":"While","blok":{"instrukcje":[]},"warunek":{"typ":"<","argument1":{"typ":"Zmienna","nazwa":"index"},"argument2":{"typ":"Zmienna","nazwa":"numer"}}}}]}

@@ -1,0 +1,13 @@
+{
+"typ":"Razy",
+"argument1":
+{
+"typ":"Liczba",
+"wartosc":1.5
+},
+"argument2":
+{
+"typ":"Liczba",
+"wartosc":2.3
+}
+}

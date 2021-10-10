@@ -1,0 +1,67 @@
+{
+"typ":"And",
+"argument1":
+    {
+        "typ":"And",
+        "argument1":
+        {
+            "typ":">",
+            "argument1":
+            {
+                "typ":"Liczba",
+                "wartosc":1.5
+            },
+            "argument2":
+            {
+                "typ":"Liczba",
+                "wartosc":-1.3
+            }
+        },
+        "argument2":
+        {
+            "typ":"<",
+            "argument1":
+            {
+                "typ":"Liczba",
+                "wartosc":-1.5
+            },
+            "argument2":
+            {
+                "typ":"Liczba",
+                "wartosc":1.3
+            }
+        }
+    },
+"argument2":
+    {
+        "typ":"And",
+        "argument1":
+        {
+            "typ":">=",
+            "argument1":
+            {
+                "typ":"Liczba",
+                "wartosc":1.5
+            },
+            "argument2":
+            {
+                "typ":"Liczba",
+                "wartosc":1.5
+            }
+        },
+        "argument2":
+        {
+            "typ":"<=",
+            "argument1":
+            {
+                "typ":"Liczba",
+                "wartosc":-1.5
+            },
+            "argument2":
+            {
+                "typ":"Liczba",
+                "wartosc":-1.5
+            }
+        }
+    }
+}

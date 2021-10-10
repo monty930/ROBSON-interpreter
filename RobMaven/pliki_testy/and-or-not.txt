@@ -1,0 +1,33 @@
+{
+"typ":"And",
+"argument1":
+{
+    "typ":"True"
+},
+"argument2":
+{
+    "typ":"Or",
+    "argument1":
+    {
+        "typ":"Not",
+        "argument":
+        {
+            "typ":"True"
+        }
+    },
+    "argument2":
+    {
+        "typ":">",
+        "argument1":
+        {
+            "typ":"Liczba",
+            "wartosc":1.6
+        },
+        "argument2":
+        {
+            "typ":"Liczba",
+            "wartosc":1.5
+        }
+    }
+}
+}
