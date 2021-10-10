@@ -1,0 +1,46 @@
+{
+"typ":"Wąchaj",
+"typ":"Prawo",
+"typ":"If",
+"warunek": {
+	"typ":"Sprawdź",
+	"wX": 	{
+		"typ":"PlusWspółrzędnaX",
+		"argument":{
+			"typ":"Liczba",
+			"wartosc":1
+		}
+		},
+	"wY":	
+		{
+		"typ":"WspółrzędnaY"
+		}
+},
+"blok_prawda": {
+	"typ":"Kierunek",
+	"wartosc":1,
+	"typ":"Idź"
+},
+"blok_falsz": {
+	"typ":"If",
+	"warunek": {
+		"typ":"Sprawdź",
+		"wX": 	{
+			"typ":"WspółrzędnaX"
+			},
+		"wY":	
+			{
+			"typ":"PlusWspółrzędnaY",
+			"argument":{
+				"typ":"Liczba",
+				"wartosc":-1
+			}
+			}
+	},
+	"blok_prawda": {
+		"typ":"Kierunek",
+		"wartosc":2,
+		"typ":"Idź"
+	}
+}
+}
